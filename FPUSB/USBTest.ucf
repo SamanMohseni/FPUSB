@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "FTDI_data[7]" LOC = P97;
+NET "FTDI_data[6]" LOC = P98;
+NET "FTDI_data[5]" LOC = P99;
+NET "FTDI_data[4]" LOC = P100;
+NET "FTDI_data[3]" LOC = P101;
+NET "FTDI_data[2]" LOC = P102;
+NET "FTDI_data[1]" LOC = P104;
+NET "FTDI_data[0]" LOC = P105;
+NET "async_reset" LOC = P133;
+NET "clk_24" LOC = P50;
+NET "FTDI_data_avilable" LOC = P95;
+NET "FTDI_empty_for_write" LOC = P94;
+NET "FTDI_pop_data" LOC = P93;
+NET "FTDI_push_data" LOC = P92;
