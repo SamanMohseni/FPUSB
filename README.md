@@ -1,7 +1,8 @@
 # Floating Point Units on FPGA, Interfaced to PC Over USB
 This project is part of the **Interfacing Circuits Design** course.
 
-Custom floating point units implemented in Verilog and tested on an FPGA with an interface to a PC over the series of Asynchronous FIFO, FTDI chip, and USB.
+Custom floating point units implemented in Verilog and tested on an Xilinx FPGA with an interface to a PC over the series of Asynchronous FIFO, FTDI chip, and USB.
+`FPUSB` comprises the Xilinx ISE project for the FPGA chip, whereas `USB_FTDI_Test` includes the Windows software for communicating the FPGA over USB.
 
 ## Floating Point Units
 There are two custom-designed 27-bit floating point units in this project, a floating point adder and a multiplier.
