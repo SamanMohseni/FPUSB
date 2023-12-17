@@ -1,5 +1,5 @@
 # Floating Point Units on FPGA, Interfaced to PC Over USB
-This project is part of the **Interfacing Circuits Design** course.
+This project was originally conducted as part of the **Spring 2018 Interfacing Circuits Design** course.
 
 Custom floating point units implemented in Verilog and tested on an Xilinx FPGA with an interface to a PC over the series of Asynchronous FIFO, FTDI chip, and USB.
 `FPUSB` comprises the Xilinx ISE project for the FPGA chip, whereas `USB_FTDI_Test` includes the Windows software for communicating the FPGA over USB.
@@ -77,3 +77,6 @@ Next, it reads 32 bits of data from the FPGA, which is the result of multiplying
 In general, the sent data are multiples of 32 bits, consisting of 27 bits of the floating-point number and 5 bits of Command, which the Control Unit uses to control the execution process of the algorithm.
 
 The program is located in the project folder at `USB_FTDI_Test`.
+
+## Acknowledgments
+Course instructor: [Dr. Majid Nabi](https://scholar.google.com/citations?user=BKPQVhgAAAAJ&hl=en)
